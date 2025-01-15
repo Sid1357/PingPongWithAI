@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+}
+
+#start-menu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+}
+
+#board {
+    background-color: black;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid skyblue;
+    margin: 0 auto;
+    display: none;
+}
